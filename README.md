@@ -72,10 +72,10 @@ Save the file and restart CanaryMod. Then launch Minecraft and choose 'Multiplay
 ```javascript
 events.blockDestroy( howl );
 ```
-The `howl()` function only gets called whenever a block is broken. Itreceives an `event` and process that event, it get the location of the block which was broken and plays a sound at that location. This Mod makes use of ScriptCraft's API. The `sounds` module is just one of the many modules provided by ScriptCraft's API which you can browse at http://scriptcraftjs.org/api . 
+This ensures the  `howl()` function will be executed whenever a block is destroyed. It receives an `event` parameter from which it get the location of the destroyed block, then plays a sound at that location. This Mod makes use of ScriptCraft's API. The `sounds` module is just one of the many modules provided by ScriptCraft's API which you can browse at http://scriptcraftjs.org/api . 
 
 ## Lightning Arrows
-Let's step things up a notch and create a more exciting Mod - one which will add Lightning-Strike arrows to the game. When a player shoots an arrow a bolt of lightning will strike where the arrow lands. Create a new file in the scriptcraft/plugins directory called lightning-arrows.js and type the following code:
+Let's step things up a notch and create a more exciting Mod - one which will add Lightning-Strike arrows to the game. When a player shoots an arrow, a bolt of lightning will strike where the arrow lands. Create a new file in the scriptcraft/plugins directory called `lightning-arrows.js` and type the following code:
 
 ```javascript
 var cmArrow = Packages.net.canarymod.api.entity.Arrow;
