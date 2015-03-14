@@ -98,7 +98,7 @@ The `strikeLightning` function only gets called a projectile (which could be an 
 This Mod makes heavy use of CanaryMod's API. For example, Lightning is summoned using the `World.makeLigthningBolt()` function which is documented at https://ci.visualillusionsent.net/job/CanaryLib/javadoc/net/canarymod/api/world/World.html . The CanaryMod API is a collection of functions which Mod creators can call either using Java or JavaScript. There are hundreds of different function calls which can be made. You can browse around the CanaryMod API at https://ci.visualillusionsent.net/job/CanaryLib/javadoc/ . 
 
 ## Next Steps
-If you're interested in learning more about Minecraft Modding and how to create your own Mods I recommend reading the [Young Person's Guide to Programming in Minecraft][ypgpm] or PeachPit's [Writing Minecraft Plugins in Javascript].
+If you're interested in learning more about Minecraft Modding and how to create your own Mods I recommend reading the [Young Person's Guide to Programming in Minecraft][ypgpm] or PeachPit's [Writing Minecraft Plugins in Javascript][wmp].
 
 [forge]: http://www.minecraftforge.net/forum/
 [cm]: http://canarymod.net/
