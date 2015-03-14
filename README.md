@@ -39,10 +39,20 @@ Save the file then restart CanaryMod. This time CanaryMod will continue and will
 
     js 1 + 1
 
-If you see 2 displayed then ScriptCraft has loaded. The /js command lets you execute any Javascript statement - in this case 1 + 1 . Javascript is a full-feature programming language capable of doing much more than simple mathematics. 
+If you see 2 displayed then ScriptCraft has loaded. The `js` command lets you execute any Javascript statement - in this case 1 + 1 . Javascript is a full-feature programming language capable of doing much more than simple mathematics. 
 
 ## Your first Minecraft Mod
-Let's start by writing a simple plugin that displays a message in the Server console when the server starts up. In the same 
+Let's start by writing a simple plugin that displays a message in the Server console when the server starts up. In the same directory where the CanaryMod .jar file lives there should now be a scriptcraft directory and in that directory you'll find a plugins directory. ScriptCraft is a CanaryMod Plugin which lets you load Javascript plugins. Plugins are code which is executed when the server starts up. 
+
+Using a Text Editor ( I recommend Notepad++ for Windows or TextWrangler for Mac OS - both of which are free ) create a new file called first.js in the scriptcraft/plugins/ directory and type the following code:
+
+```javascript
+console.log( 'Hello World' );
+```
+
+Save the file then stop CanaryMod and start it again. This type you'll see a message `Hello World` appear in the CanaryMod console. 
+
+## Lightning Arrows
 
 ## Howling Blocks
 
