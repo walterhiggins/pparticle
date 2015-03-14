@@ -104,4 +104,4 @@ If you're interested in learning more about Minecraft Modding and how to create 
 [cm]: http://canarymod.net/
 [spigot]: http://www.spigotmc.org/
 [ypgpm]: https://github.com/walterhiggins/ScriptCraft/blob/master/docs/YoungPersonsGuideToProgrammingMinecraft.md
-[wmp]: peachpit.com/store/beginners-guide-to-writing-minecraft-plugins-in-javascript-9780133930146
+[wmp]: http://peachpit.com/store/beginners-guide-to-writing-minecraft-plugins-in-javascript-9780133930146
