@@ -15,9 +15,7 @@ Because the standard Minecraft server provided by Mojang isn't easily modifiable
 
 All of the above frameworks provide APIs (Application Programming Interfaces - a set of procedures that can be called) which make it possible for mod creators to add new features to the game. 
 
-Because Minecraft is written in the Java Programming language, each of the Modding Frameworks also use Java and require Mod creators to understand Java. 
-
-Java is a full-featured language used most commonly for business applications. It's a difficult language to learn if you're just starting out programming. 
+Because Minecraft is written in the Java Programming language, each of the Modding Frameworks also use Java and require Mod creators to understand Java. Java is a full-featured language used most commonly for business applications. It's a difficult language to learn if you're just starting out programming. 
 
 ## ScriptCraft
 
